@@ -22,6 +22,9 @@ p{
 li{
     font-size: 1.2em;
 }
+.title{
+    text-align: center;
+}
 #container {
     display: flex;
     align-items: center;
@@ -36,7 +39,4 @@ li{
     min-width: 45%;
     object-fit: cover;
     vertical-align: bottom
-}
-#title{
-    text-align: center;
 }
