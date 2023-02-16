@@ -4,56 +4,59 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Walter page for Web App Development course at College of San Mateo">
     <title>About Me</title>
     <link rel="stylesheet" href="assets/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
 </head>
 
 <body>
     <header>
-        <h1 class="title">Simple HTML & CSS Page</h1>
+        <h1 class="title" id="top-title">Simple HTML & CSS Page</h1>
+        <button id="startBtn">Start Animation</button>
     </header>
     <main>
-        <div>
+        <section>
             <h2>About Me</h2>
             <div id="container">
-                <img id="profile" src="./assets/img/profile.png" alt="Profile Picture" draggable="false">
+                <img id="profile" src="./assets/img/profile.png"
+                    alt="Picture of Walter Underwood sitting in a chair with a guitar" draggable="false">
                 <p>My name is <b>Walter Alonso </b>I am an enthusiastic entry-level Full-Stack
                     developer, I have a clear understanding of Front-End and Back-End. Motivated to learn, grow
                     and succeed in the mobile development industry.</p>
             </div>
-        </div>
-        <div>
+        </section>
+        <section>
             <h2>Why this class?</h2>
             <p>I have knowledge of some mobile frameworks such as React Native, but a long path to master it.
                 The main reason I'm taking this class is to develop multiple projects exclusively for mobile
                 devices and expand my knowledge.
             </p>
-        </div>
-        <div>
+        </section>
+        <section>
             <h2 class="title">Technologies for this class</h2>
             <ul>
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>JavaScript</li>
             </ul>
-        </div>
-        <div>
+        </section>
+        <section>
             <h2 class="title">Resources</h2>
             <ul>
-                <li><a href="https://www.w3schools.com/" target="_blank">w3schools</a>
+                <li><a href="https://www.w3schools.com/" rel="noopener noreferrer" target="_blank">w3schools</a>
                     -- This website contains multiple references for different technologies, such as: HTML, CSS, and
                     JavaScript.
                 </li>
-                
-                <li><a href="https://stackoverflow.com/" target="_blank">Stack Overflow</a>
+                <li><a href="https://stackoverflow.com/" rel="noopener noreferrer" target="_blank">Stack Overflow</a>
                     -- This website is forum where mutliple developer from aroud the globe, share solutions, advice, or
                     trends for diferent languages.
                 </li>
             </ul>
-        </div>
+        </section>
     </main>
     <footer></footer>
+    <script src="./assets/script.js"> </script>
 
 </body>
 
